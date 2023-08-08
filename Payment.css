@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin:0px;
+  
+}
+html, body {
+  height: 100%;
+  background-image: url("../images/backgroundAll.jpg");
+  background-size: 100%;
+}
+h1{
+  font-size: 50px;
+  color: white;
+  margin-top: 0px;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 0px;
+  
+  }
+  
+  h2{
+  color: red;
+  font-size: 18px;
+  padding-left: 10px;
+  margin-top: 0%;
+ 
+  display: inline-block;
+  
+  
+  }
+  
+  
+  #box{
+  border-color: rgb(105, 97, 97);
+  border-style: solid;
+  background-color: rgb(105, 97, 97);
+  font-size: 50%;
+  text-align: center;
+  width: 100%;
+  height: 120px;
+  
+  }
+  #box2{margin-top: 0px;}
+  #redBox{
+  background-color: red;
+  border-style: solid;
+  width: 30%;
+  border-color: red;
+  height: 5%;
+  display: inline-block;
+  }
+  
+  ul{
+    list-style-type:none;
+      width: 100%;
+    margin-left:3%;
+    overflow:auto;
+      background-color: rgb(190, 186, 186);	
+      
+  }
+  
+  li{
+    float:right;
+    width:140px;
+    margin-top: 20px;
+      margin-bottom:20px;
+        
+  }
+  #logo{height: 50px;
+  width: 60px;
+  margin-top: 20px;
+  }
+  a{
+    text-decoration:none;
+    color:black;
+  
+  }
+  .nav-payment{padding-right: 35px;}
+  .txt,.b{
+    position:absolute;
+    right:120px;
+   margin-right: 40%; 
+  }
+  #half{align-content: center;
+    margin-top: 10px;
+   margin-right: 400px;
+   border-style:double ;
+   margin-left: 450px;
+   padding-top: 2%;
+   padding-bottom: 2%;
+   height: 400px;
+   padding-right: 10px;
+  }
+  #shipping{margin-right: 18% ; text-align: center;margin-top: 25px;display: inline-block;margin-bottom: 25px;}
+  .lo{margin-bottom: 10px;}
+  .pay{margin-right: 40%; font-size:xx-large; background-color:blanchedalmond; color: blueviolet; }
+  body{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;}
+  @media(max-width: 1500px) {
+    span{display:none;}
+    
+  }
+  @media(max-width: 1300px) {
+    #half{align-content: center;margin-top: 10px;margin-right: 18%;border-style:double ;margin-left: 17%;padding-top: 2%; padding-bottom: 2%;}
+    .txt,.b{
+      position:absolute;
+      right: 7px;
+     margin-right: 45%; 
+     
+    }
+    #shipping{width:80%;text-align:center;margin-right:10%;}
+  }

@@ -1,0 +1,141 @@
+h1{
+  font-size: 50px;
+  color: white;
+  margin-top: 0px;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 0px;
+  
+  }
+  
+  
+  h2{
+  color: red;
+  font-size: 18px;
+  padding-left: 10px;
+  margin-top: 0%;
+ 
+  display: inline;
+  
+  
+  }
+  
+  h3{padding-top: 4.5%; margin-top: 20px;text-align: center;font-size: 50px; height:200px;background-image: url("../images/frame.gif");background-repeat: no-repeat;
+    background-size: 350px;background-position-x: center;background-position-y: center;}
+  #box{
+  border-color: rgb(105, 97, 97);
+  border-style: solid;
+  background-color: rgb(105, 97, 97);
+  font-size: 50%;
+  text-align: center;
+  width: 100%;
+  height: 120px;
+  
+  }
+  #box2{margin-top: 0px;}
+  #redBox{
+  background-color: red;
+  border-style: solid;
+  width: 30%;
+  border-color: red;
+  height: 5%;
+  display: inline-block;
+  }
+  
+  .navbar-nav{
+    list-style-type:none;
+      width: 100%;
+    margin-left:3%;
+    overflow:auto;
+      background-color: rgb(190, 186, 186);	
+      
+  }
+  
+  li{
+    float:right;
+    width:140px;
+    margin-top: 20px;
+      margin-bottom:20px;
+        
+  }
+  #logo{height: 50px;
+  width: 60px;
+  margin-top: 20px;
+  }
+  a{
+    text-decoration:none;
+    color:black;
+  
+  }
+  .nav-payment{padding-right: 35px;}
+  
+  
+  body{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;background-image: url("../images/backgroundAll.jpg");}
+  
+  #div2{ height:50%;}
+  img{  width:70%;height:100px; }
+  #box3{ padding-top: 5px;background-color: white; height: 270px; width: 19%;  border-style:ridge; float: right;margin-bottom: 5px; margin-left: 5px; border-radius:10%;}
+  #p2{color: red; font-size: 20px;}
+  p{margin-right: 15px;}
+  #saleProduct{width:50%;height:120px;margin-top: 5px; margin-right: 55px;}
+
+  * {
+  box-sizing: border-box;
+  margin:0px;
+}
+b{display: inline-block;}
+aside{
+
+ width:15%;border-style: solid;
+  margin-top: 20px;
+  background-color: rgb(221, 158, 179);
+  display: inline-block;
+ 
+  
+}
+#cart{display: inline}
+#shipCart{display: inline}
+.navbar-menu{list-style-type:none;}
+
+main {margin-top: 10px;
+float: left;
+width:84%;}
+#link{
+  color: blue;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  float: left;
+
+}
+@media(max-width: 1200px) {
+	#box3{ height: 150px; width: 150px;}
+  #saleProduct{width:40%;height:60px;margin-top: 5px; margin-right: 55px;}
+  p{font-size: 0px;}
+  #cart{font-size: 16px;}
+#shipCart{font-size: 16px;}
+  #p2{font-size: 15px;}
+  .summerSale1{width: 40%;height: 40%;}
+  #bidSales{display: none;}
+
+  aside{
+    height:40%;width:40%;border-style: solid;background-color: rgb(221, 158, 179);
+  
+  }
+  #sales{display: inline-block;}
+  main{
+    float: left;
+    width: 50%;
+  
+  }
+  
+}
+
+#bigSale1{font-size: 45px; float: left;padding-left:200px;color: rgb(226, 70, 145);display: block;margin-top: -220px;}
+#bigSale2{font-size: 40px;padding-right:220px; color: rgb(226, 70, 145);margin-top: -50px;}
+.summerSale{ height:100%;width:100%;}
+#sales1{height: 200px;}
+#sales2{height: 50px;}
+#sales3{height:150px;}
+#sales{text-align: center;border-color: black ;color: brown;}
